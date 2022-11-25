@@ -123,7 +123,7 @@ body, html {
   height:100%;
 }
 
-.container {
+/* .container {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -133,7 +133,7 @@ body, html {
 
   background-color: #d8d7d7;
 	column-gap: 3rem;
-}
+} */
 
 .form{
 	position: absolute;
@@ -146,7 +146,7 @@ body, html {
 	transition: all .3s ease-in-out;
 }
 
-.form.sign-up {
+.abc {
 	opacity: 0;
 	pointer-events: none;
 }
@@ -156,7 +156,7 @@ body, html {
 	pointer-events: auto;
 }
 
-.forms.show-signup .form.sign-in {
+.forms.show-signup .abc {
 	opacity: 1;
 	pointer-events: none;
 }
@@ -205,7 +205,7 @@ span.under__social {
 }
 
 
-.button-input-group {
+.button {
 	display: grid;
 	place-items: center;
 	margin-top: .6rem;
@@ -369,27 +369,4 @@ a.login-link:hover {
 	width: 99%;
 	height: 96%;
 	border-radius: .6rem;
-}
-
-
-footer {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-	word-spacing: 1px;
-		transform: translate(-50%, 19em);
-}
-
-footer p {
-	font-size: var(--step--1);
-	color: #fff;
-}
-	
-footer p a {
-	letter-spacing: 1px;
-	color: #f7aa00;
-}
-
-footer p a:hover {
-	text-decoration: underline;
 }
