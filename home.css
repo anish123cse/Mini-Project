@@ -41,21 +41,7 @@
    /*  filter: brightness(1.7); */
   }
   
-  /* #menu {
-    position: absolute;
-    right: 20px;
-    top: 25px;
-    cursor: pointer;
-    display: none;
-  } */
-  
-  /* #close {
-    position: absolute;
-    top: 25px;
-    right: 20px;
-    cursor: pointer;
-    display: none;
-  } */
+ 
   
   nav {
     background-image: radial-gradient(circle at 4% -18%,#61bde2,#3bb3e4 47%,#31a3d1);
